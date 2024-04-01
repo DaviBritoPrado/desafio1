@@ -1,0 +1,91 @@
+body{
+    margin:0px;
+    padding:0px;
+
+}
+
+.coint {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+h1{
+    font-family: "Lilita One";
+    border-bottom:5px solid #FFAC49;
+}
+
+img{
+    width:50vw;
+    height:100vh;
+    object-fit: cover
+
+}
+
+#calculadora{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    background: transparent;
+    outline: none;
+    border:1px solid white;
+    padding-left:15px;
+}
+#input {
+    display:flex;
+    flex-direction: column;
+}
+
+#input1{
+    margin:5px;
+    display: flex;
+    align-items: center;
+    border:2px solid pink;
+    border-radius:3px;
+    padding:10px;
+    
+}
+
+#input2{
+    margin:5px;
+    display: flex;
+    align-items: center;
+    border:2px solid pink;
+    border-radius:3px;
+    padding:10px;
+}
+
+#input3{
+    margin:5px;
+    display: flex;
+    align-items: center;
+    border:2px solid pink;
+    border-radius:3px;
+    padding:10px;
+}
+
+.livro{
+    width:20px;
+    height: 20px;
+}
+
+.fundo{
+    border: 5px solid #FFAC49;
+    padding: 50px;
+    border-radius:20px;
+
+}
+
+
+button{
+    background-color: transparent;
+    width:306px;
+    height:30px;
+    border:2px solid #FFAC49;
+    font-family:"Lilita One";
+}
