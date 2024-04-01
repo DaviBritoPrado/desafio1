@@ -7,7 +7,7 @@ function media(){
         texto.innerHTML = "Digite um numero";
     }else if(nota1 < 0 || nota2 < 0 || nota2 < 0){
         let texto = document.querySelector("#ola");
-        texto.innerHTML = "todos os inputs devem possuir um numero inteiro";
+        texto.innerHTML = "todos os inputs devem <br>possuir um numero inteiro";
     }
     
     else{
